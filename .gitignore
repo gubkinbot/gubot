@@ -69,6 +69,7 @@ instance/
 .scrapy
 .yaml
 
+
 # Sphinx documentation
 docs/_build/
 
