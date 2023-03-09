@@ -2,7 +2,7 @@ import telebot
 import openai
 import yaml
 
-with open('secrets.yaml', 'r') as f:
+with open('keys.yaml', 'r') as f:
     secrets = yaml.safe_load(f)
 
 TG_TOKEN = secrets.get('TG_TOKEN')
